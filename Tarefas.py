@@ -4,6 +4,5 @@ class Tarefa:
         self._tarefa = tarefa
         self._concluido = False
 
-
     def alterar_conclusao(self):
         self._concluido = not self._concluido
